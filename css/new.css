@@ -51,7 +51,7 @@
     border: solid 3px;
     border-radius: 1rem;
     border-color: grey; 
-    width: auto;
+    width: 100%;
     height: 250px;
     /* transition: opacity 0.3s ease, border 0.3s ease, box-shadow 0.3s ease; */
   }
@@ -134,3 +134,30 @@
     width: 50%;
   }
   
+
+
+  @media only screen and (max-width: 768px) {
+    .project-box {
+      width: 100%;
+    }
+  }
+
+
+
+
+  .cvbtn{
+   
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+    
+    
+  }
