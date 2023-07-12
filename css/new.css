@@ -1,0 +1,136 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-box {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    padding: 20px;
+    /* background-color: #f1f1f1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* margin-right: 10px; */
+    background-color: white;
+
+    border: solid 3px gray;
+    border-radius: 1rem;
+  }
+  
+  .project-box .project-header {
+    margin-bottom: 10px;
+  
+  }
+  
+  .project-box .project-header h3 {
+    margin: 0;
+  }
+  
+  .project-box .project-header p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .project-box .project-content {
+    /* display: flex; */
+  }
+  
+  .project-box .project-content .project-image {
+    /* flex-basis: 95%;
+    margin-right: 10px; */
+    display: flex;
+    padding: auto;
+  }
+  
+
+  .project-box .project-content .project-image img {
+    
+    border: solid 3px;
+    border-radius: 1rem;
+    border-color: grey; 
+    width: auto;
+    height: 250px;
+    /* transition: opacity 0.3s ease, border 0.3s ease, box-shadow 0.3s ease; */
+  }
+  
+  /* .project-box .project-content .project-image img:hover {
+    opacity: 0.8;  
+    border: 2px solid #000; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  
+  }
+   */
+
+
+  .project-box .project-content .project-details {
+    flex-basis: 50%;
+    margin-top: 20px;
+  }
+  
+  .project-box .project-content .project-details p {
+    margin: 0;
+  }
+  
+  .project-box .project-content .project-details a {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  * {box-sizing: border-box}
+  .mySlides1, .mySlides2 {display: none}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: rgb(247, 237, 237);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* Position the "next button" to the right */
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* On hover, add a grey background color */
+  .prev:hover, .next:hover {
+    background-color: white;
+    color: rgb(3, 3, 3);
+  }
+
+  .two-column-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .two-column-list ul {
+    list-style: none;
+    width: 50%;
+  }
+  
