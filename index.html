@@ -309,6 +309,88 @@
             </div>
          
           </div>
+
+
+          <div class="projects">
+
+            <div class="project-box">
+              <div class="project-header">
+                <h3>Simple Social</h3>
+                <p>Web application - 2020</p>
+              </div>
+              <div class="project-content">
+                <div class="project-image">
+                  
+                  <div class="slideshow-container">
+                    <div class="mySlides3">
+                      <img src="" alt="No image available">
+                    </div>
+                  
+                    <div class="mySlides3">
+                      <img src="" alt="No image available">
+                    </div>
+                  
+                    <div class="mySlides3">
+                      <img src="" alt="No image available">
+                    </div>
+                  
+                    <a class="prev" onclick="plusSlides1(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides1(1, 0)">&#10095;</a>
+                  </div>
+                
+                </div>
+                <div class="project-details">
+                  <p style="color: black; margin-bottom: 10px;"><b><i>Description :</i></b>Get user authentication and create educative posts on different categorical groups. Create new groups for categorical posts. Apply CRUD operation</p>
+                  <b style="color: black; margin-bottom: 10px;"><i>Technologies :</i></b> <small><b> Django &bull; SqLite </b></small>
+                  <b><a href="https://github.com/Ishti97/Simple-Social">Github</a></b>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-box">
+              <div class="project-header">
+                <h3>Foot Ulcer Detection</h3>
+                <p>Computer vision | Digital Image Processing - 2023</p>
+              </div>
+              <div class="project-content">
+                <div class="project-image">
+   
+                  <div class="slideshow-container">
+                    <div class="mySlides6">
+                      <img src="img/dip/dip1.png" alt="1dwd">
+                    </div>
+
+                    <div class="slideshow-container">
+                      <div class="mySlides6">
+                        <img src="img/dip/dip2.png" alt="1dwd">
+                      </div>
+                  
+                    <a class="prev" onclick="plusSlides2(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides2(1, 1)">&#10095;</a>
+                  </div>
+
+                </div>
+                <div class="project-details">
+                  <p style="color: black; margin-bottom: 10px;"><b><i>Description :</i></b> Implementation of
+                    the DeepLabv3 model, employing five distinct pre-trained models—ConvNeXtBase, EfficientNetV2M, InceptionV3, ResNet50, and VGG16—as backbones, and assess their performance. 
+                    </p>
+                    <b style="color: black; margin-bottom: 10px;"><i>Technologies :</i></b> <small><b> Colab &bull; Pre trained model</b></small>
+                    <b><a href="https://github.com/Ishti97/Digital-Image-Processing">Github</a></b>
+                </div>
+              </div>
+            </div>
+         
+          </div>
+
+
+
+
+
+
+
+
+
+
           
         </div>
       </section>
@@ -761,6 +843,28 @@
        x[i].style.display = "none";  
     }
     x[slideIndex1[no]-1].style.display = "block";  
+  }
+  </script>
+
+<script>
+  let slideIndex2 = [1,1];
+  let slideId2 = ["mySlides5", "mySlides6"];
+  showSlides2(1, 0);
+  showSlides2(1, 1);
+  
+  function plusSlides2(n, no) {
+    showSlides2(slideIndex2[no] += n, no);
+  }
+  
+  function showSlides2(n, no) {
+    let i;
+    let x = document.getElementsByClassName(slideId2[no]);
+    if (n > x.length) {slideIndex2[no] = 1}    
+    if (n < 1) {slideIndex2[no] = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex2[no]-1].style.display = "block";  
   }
   </script>
 
